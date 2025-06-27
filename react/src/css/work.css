@@ -1,0 +1,15 @@
+.video{
+    align-items: center;
+}
+
+
+.video a img{
+width:300px;
+border-radius: 20px;
+height: 200px;
+margin-right: 50px;
+ box-shadow: 
+    0 0 5px rgb(188, 190, 190),
+    0 0 2px rgb(45, 50, 50),
+    0 0 5px rgb(188, 244, 244);
+margin-bottom: 50px;}
