@@ -22,7 +22,7 @@ const Home = () => {
           right: "0px",
         }}
         alt="cameraman"
-        className="camera3"
+        className="cameraMan"
       ></img>
       <div className="decoration">
         <div
@@ -87,12 +87,29 @@ const Home = () => {
           style={{
             fontFamily: "poppins",
             color: "smokey-white",
-            marginTop: "20px",
+            margin: "30px 0",
           }}
         >
           Visual storytelling through photography, film, and editing.
         </h3>
-        <button className="getInTouch">Get in touch</button>
+        <a
+          href="#contact"
+          className="getInTouch"
+          style={{
+            backgroundColor: "#e63946",
+            color: "black",
+            padding: "15px 35px",
+            borderRadius: "25px",
+            fontWeight: "bold",
+            textDecoration: "none",
+            // fontFamily: "Rock Salt",
+            transition: "all 0.3s ease-in-out",
+            boxShadow: "0 4px 10px rgba(0, 0, 0, 0.25)",
+          }}
+        >
+          Get in touch
+        </a>
+
         <div
           className="icons"
           style={{

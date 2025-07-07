@@ -61,10 +61,8 @@
   background-position: 0% center; /* Start position */
   border-radius: 100px;
   border: none;
-  height: 30px;
-  width: 100px;
+
   color: black;
-  margin-top: 5%;
   animation: buttonAnime 2.5s linear infinite;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -99,6 +97,10 @@
   .decoration{
     display: none;
   }
+
+  .camera3{
+     display: none; 
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -124,6 +126,10 @@
  .home{
     display: flex;
     flex-direction: column;
-  }}
+    
+  }
+.camera3{
+     display: none; 
+    }}
 
  

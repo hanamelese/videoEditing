@@ -18,7 +18,6 @@ const Header = () => {
         position: "fixed",
         width: "100%",
         backgroundColor: "black",
-        marginTop: "0",
       }}
     >
       <div
@@ -39,18 +38,26 @@ const Header = () => {
         </div>
       </div>
       <div className="link" style={{ color: "white" }}>
-        <a href="" className="header Home" style={{ fontFamily: "Rock Salt" }}>
+        <a
+          href="#home"
+          className="header Home"
+          style={{ fontFamily: "Rock Salt" }}
+        >
           Home
         </a>
-        <a href="" className="header Works" style={{ fontFamily: "Rock Salt" }}>
+        <a
+          href="#work"
+          className="header Works"
+          style={{ fontFamily: "Rock Salt" }}
+        >
           Works
         </a>
         <a
-          href=""
+          href="#contact"
           className="header Contact"
           style={{ fontFamily: "Rock Salt" }}
         >
-          contact
+          Contact
         </a>
       </div>
     </header>
