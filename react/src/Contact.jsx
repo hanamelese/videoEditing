@@ -137,13 +137,14 @@ const Contact = () => {
         {/* === Timeline Animation === */}
         <div style={{ flex: 1, minWidth: "300px" }}>
           <h3>Full Name</h3>
-          <p>HaileGiorgis</p>
+          <p>HaileGiorgis </p>
 
           <h3>Phone Number</h3>
           <p>+251-977603327</p>
 
           <h3>Email</h3>
-          <p>hanamelese95@gmail.com</p>
+          <p>mariegedefaw@gmail.com</p>
+          {/* <p>hanamelese95@gmail.com</p> */}
 
           <h3>Telegram Username</h3>
           <p>@George_ve2</p>

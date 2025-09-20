@@ -60,6 +60,25 @@ const Work = () => {
           <img src={AA}></img>
         </a>
       </div>
+      <div
+        style={{
+          backgroundColor: "#e63946",
+          color: "black",
+          padding: "10px 35px",
+          borderRadius: "25px",
+          fontWeight: "bold",
+          textDecoration: "none",
+          width: "210px",
+          transition: "all 0.3s ease-in-out",
+          boxShadow: "0 4px 10px rgba(0, 0, 0, 0.25)",
+          margin: "20px 60px",
+        }}
+      >
+        <a href="https://t.me/George_negative">
+          My Telegram Channel{" "}
+          <i style={{ color: "white" }} className="fab fa-youtube"></i>
+        </a>
+      </div>
     </>
   );
 };
